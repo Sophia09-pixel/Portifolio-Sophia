@@ -1,0 +1,27 @@
+.main-banner {
+    box-sizing: border-box;
+    background-image: url(../../assets/img/pikachu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 900px;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.main-banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.main-banner .main-box {
+    margin-bottom: 40px;
+}
+
+.main-banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
